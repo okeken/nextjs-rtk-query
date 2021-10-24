@@ -2,6 +2,8 @@
 
 A boilerplate based on nextjs with a setup of React RTQ query, utlizing a combination of tailwind plus styled components
 
+![Home page](https://github.com/okeken/nextjs-rtk-query/blob/master/public/ricky.PNG?raw=true)
+
 
 ## Getting Started
 
