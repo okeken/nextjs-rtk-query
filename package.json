@@ -1,0 +1,38 @@
+{
+  "name": "safekeep",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "babelMacros": {
+    "twin": {
+      "config": "tailwind.config.js",
+      "preset": "styled-components"
+    }
+  },
+  "dependencies": {
+    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "@reduxjs/toolkit": "^1.6.2",
+    "fs": "^0.0.1-security",
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-loading-skeleton": "^3.0.1",
+    "react-redux": "^7.2.5",
+    "redux-thunk": "^2.3.0",
+    "slugify": "^1.6.1",
+    "styled-components": "^5.3.3",
+    "tailwindcss": "^2.2.17",
+    "twin.macro": "^2.8.0"
+  },
+  "devDependencies": {
+    "eslint": "8.0.1",
+    "eslint-config-next": "11.1.2"
+  }
+}
